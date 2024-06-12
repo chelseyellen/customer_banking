@@ -41,7 +41,7 @@ def create_savings_account(balance, interest_rate, months):
     # print(my_account.balance)
     # print(my_account.interest)
 
-    return  f"({my_account.balance}, {my_account.interest})"
+    return my_account.balance, my_account.interest
 
 # added execute line below to test the function
 # if __name__=="__main__":
